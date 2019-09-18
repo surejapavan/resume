@@ -84,6 +84,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .active {
+  -webkit-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
   background-color: rgba(0, 0, 0, 0.66);
 }
 
