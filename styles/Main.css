@@ -81,11 +81,13 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   z-index: 999;
   padding: 1em 0em;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
 }
 
 .active {
-  -webkit-transition: all .8s ease-in-out;
-  transition: all .8s ease-in-out;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
   background-color: rgba(0, 0, 0, 0.66);
 }
 
